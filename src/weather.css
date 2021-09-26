@@ -1,0 +1,56 @@
+.Weather .weather {
+  font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Weather h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 68px;
+  transition: all 200ms ease-in-out;
+}
+.Weather h1:hover {
+  color: #72b9d5;
+}
+.Weather h2 {
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  color: #013d58;
+}
+.Weather h3 {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+.Weather .headings {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.Weather .current-details {
+  font-family: "Karla", sans-serif;
+  padding-right: 50px;
+  padding-top: 50px;
+  text-align: right;
+}
+
+.Weather .col-4 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.Weather .row {
+  line-height: 32px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.Weather .current-temp,
+.wind-speed,
+.humidity {
+  font-weight: bold;
+}

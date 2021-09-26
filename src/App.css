@@ -1,38 +1,44 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/952/original/day-background.jpg?1631320493);
+  background-size: cover;
+  padding: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+.App .container {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+  color: #013d58;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 900px;
+  padding: 20px 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .morning {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/954/original/morning-background.jpg?1631320510);
+  background-size: cover;
+  padding: 40px;
+}
+.App .day {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/952/original/day-background.jpg?1631320493);
+  background-size: cover;
+  padding: 40px;
+}
+.App .evening {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/953/original/evening-background.jpg?1631320502);
+  background-size: cover;
+  padding: 40px;
+}
+.App .night {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/955/original/night-background.jpg?1631320516);
+  background-size: cover;
+  padding: 40px;
 }

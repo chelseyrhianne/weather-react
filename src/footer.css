@@ -1,0 +1,16 @@
+.Footer {
+  text-align: center;
+  font-family: monospace;
+  font-size: 11px;
+  padding: 40px 0px 20px 0px;
+}
+
+.Footer a {
+  color: unset;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.Footer a:hover {
+  color: #72b9d5;
+}

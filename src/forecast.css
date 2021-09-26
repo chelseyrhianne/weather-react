@@ -1,0 +1,27 @@
+.Forecast div {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.Forecast .col-2 {
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.Forecast .col-2:hover {
+  background: #fbfeff;
+}
+
+.Forecast .row {
+  line-height: 32px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.Forecast .forecast-word {
+  color: #013d58;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  margin-top: 10px;
+}
