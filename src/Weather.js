@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./weather.css";
+import FormattedDate from "./FormattedDate";
 import axios from "axios";
 
 export default function Weather(props) {
@@ -13,8 +14,7 @@ export default function Weather(props) {
       iconUrl: `./icons/${response.data.weather[0].icon}.svg`,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
-      time: "09:30",
-      day: "Friday",
+      date: new Date(response.data.dt * 1000),
     });
   }
   if (weatherData.loaded) {
@@ -32,8 +32,7 @@ export default function Weather(props) {
           <h1 id="current-city">{weatherData.city}</h1>
           <h2 id="current-desc">{weatherData.desc}</h2>
           <h3>
-            Last updated: <span>{weatherData.day}</span>,{" "}
-            <span>{weatherData.time}</span>
+            Last updated: <FormattedDate date={weatherData.date} />
           </h3>
         </div>
         <div className="col-4 current-details">
