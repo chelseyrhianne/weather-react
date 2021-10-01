@@ -36,7 +36,7 @@ export default function Weather(props) {
             <span>{weatherData.time}</span>
           </h3>
         </div>
-        <div class="col-4 current-details">
+        <div className="col-4 current-details">
           <div>
             <span className="current-temp">
               {Math.round(weatherData.temperature)}°c
@@ -54,7 +54,7 @@ export default function Weather(props) {
       </div>
     );
   } else {
-    const apiKey = "db7a5fae03a86abe1417ce0c956ef297";
+    let apiKey = "89af958e94e45825dea3a9c48c0fc2f8";
     let city = props.defaultCity;
     let units = "metric";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
