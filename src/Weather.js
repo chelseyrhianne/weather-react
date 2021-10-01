@@ -54,7 +54,7 @@ export default function Weather(props) {
       </div>
     );
   } else {
-    const apiKey = "79c697bee7cb8b155a2b7ddf63fb1c8a";
+    const apiKey = "db7a5fae03a86abe1417ce0c956ef297";
     let city = props.defaultCity;
     let units = "metric";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
