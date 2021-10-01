@@ -11,7 +11,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Form />
-        <Weather />
+        <Weather defaultCity="Auckland" />
         <Forecast />
         <Footer />
       </div>
