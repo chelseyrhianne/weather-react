@@ -1,0 +1,20 @@
+.WeatherTemperature {
+  font-size: 38px;
+}
+
+.unit {
+  font-size: 16px;
+  position: relative;
+  line-height: 1;
+  top: -14px;
+}
+
+.WeatherTemperature a {
+  text-decoration: none;
+  color: #027ed4;
+  transition: 500ms;
+}
+
+.WeatherTemperature a:hover {
+  color: #93b8db;
+}

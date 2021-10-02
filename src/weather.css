@@ -54,9 +54,7 @@
 .humidity {
   font-weight: bold;
 }
-.Weather .current-temp {
-  font-size: 32px;
-}
+
 .Weather hr {
   color: #d8d8d8;
   display: block;
