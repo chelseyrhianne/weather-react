@@ -4,7 +4,6 @@ import "./forecast.css";
 export default function Forecast() {
   return (
     <div className="Forecast">
-      <p className="forecast-word">forecast</p>
       <div className="row">
         <div className="col-2">
           <div className="forecast-day">
@@ -12,9 +11,11 @@ export default function Forecast() {
           </div>
           <img src="./icons/03d.svg" alt="" width="72" />
           <div className="forecast-temp">
-            <strong>14°</strong>
+            <span className="forecast-temp-max">
+              <strong>15°</strong>
+            </span>
+            <span className="forecast-temp-min">12°</span>
           </div>
-          <div className="forecast-min-max">13°/15°</div>
         </div>
         <div className="col-2">
           <div className="forecast-day">
@@ -22,9 +23,11 @@ export default function Forecast() {
           </div>
           <img src="./icons/03d.svg" alt="" width="72" />
           <div className="forecast-temp">
-            <strong>14°</strong>
+            <span className="forecast-temp-max">
+              <strong>15°</strong>
+            </span>
+            <span className="forecast-temp-min">12°</span>
           </div>
-          <div className="forecast-min-max">13°/15°</div>
         </div>
         <div className="col-2">
           <div className="forecast-day">
@@ -32,9 +35,11 @@ export default function Forecast() {
           </div>
           <img src="./icons/03d.svg" alt="" width="72" />
           <div className="forecast-temp">
-            <strong>14°</strong>
+            <span className="forecast-temp-max">
+              <strong>15°</strong>
+            </span>
+            <span className="forecast-temp-min">12°</span>
           </div>
-          <div className="forecast-min-max">13°/15°</div>
         </div>
         <div className="col-2">
           <div className="forecast-day">
@@ -42,9 +47,11 @@ export default function Forecast() {
           </div>
           <img src="./icons/03d.svg" alt="" width="72" />
           <div className="forecast-temp">
-            <strong>14°</strong>
+            <span className="forecast-temp-max">
+              <strong>15°</strong>
+            </span>
+            <span className="forecast-temp-min">12°</span>
           </div>
-          <div className="forecast-min-max">13°/15°</div>
         </div>
         <div className="col-2">
           <div className="forecast-day">
@@ -52,9 +59,11 @@ export default function Forecast() {
           </div>
           <img src="./icons/03d.svg" alt="" width="72" />
           <div className="forecast-temp">
-            <strong>14°</strong>
+            <span className="forecast-temp-max">
+              <strong>15°</strong>
+            </span>
+            <span className="forecast-temp-min">12°</span>
           </div>
-          <div className="forecast-min-max">13°/15°</div>
         </div>
       </div>
     </div>
