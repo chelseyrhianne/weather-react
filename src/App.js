@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Weather from "./Weather.js";
-import Forecast from "./Forecast.js";
 import Footer from "./Footer.js";
 import "./App.css";
 
@@ -10,7 +9,6 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Auckland" />
-        <Forecast />
         <Footer />
       </div>
     </div>
