@@ -81,7 +81,7 @@
   opacity: 0.5;
   padding: 15px 20px;
   transition: all 200ms ease-in-out;
-  width: 500px;
+  width: 620px;
 }
 
 .Weather .search-bar:hover {
@@ -91,7 +91,7 @@
 .Weather .select {
   align-items: center;
   background-color: #027ed4;
-  width: 170px;
+  width: 85px;
   border: none;
   border-radius: 4px;
   color: #ffffff;
@@ -104,10 +104,6 @@
   margin: 2px;
   opacity: 0.8;
   transition: 500ms;
-}
-
-.Weather .select.go {
-  width: 40px;
 }
 
 .Weather .select:hover {
