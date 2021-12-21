@@ -4,10 +4,10 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/952/original/day-background.jpg?1631320493);
   background-size: cover;
-  padding: 80px;
+  padding: 80px 20px;
 }
 
 .App .container {
@@ -19,26 +19,12 @@
   margin: 0 auto;
   text-align: center;
   width: 900px;
+  max-width: 100%;
   padding: 20px 50px;
 }
 
-.App .morning {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/954/original/morning-background.jpg?1631320510);
-  background-size: cover;
-  padding: 40px;
-}
-.App .day {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/952/original/day-background.jpg?1631320493);
-  background-size: cover;
-  padding: 40px;
-}
-.App .evening {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/953/original/evening-background.jpg?1631320502);
-  background-size: cover;
-  padding: 40px;
-}
-.App .night {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/955/original/night-background.jpg?1631320516);
-  background-size: cover;
-  padding: 40px;
+@media (max-width: 768px) {
+  .App .container {
+    padding: 20px 20px;
+  }
 }

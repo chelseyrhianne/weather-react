@@ -18,3 +18,14 @@
 .WeatherTemperature a:hover {
   color: #93b8db;
 }
+
+@media (max-width: 768px) {
+  .WeatherTemperature {
+    font-size: 24px;
+  }
+
+  .unit {
+    font-size: 12px;
+    top: -6px;
+  }
+}
